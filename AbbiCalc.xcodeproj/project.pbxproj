@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB3C9691DA6D4680041530E /* DivOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB3C9681DA6D4680041530E /* DivOperation.m */; };
+		BDB3C96D1DA6D7690041530E /* expOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB3C96C1DA6D7690041530E /* expOperation.m */; };
+		BDB3C9711DA6D8D50041530E /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB3C9701DA6D8D50041530E /* Utilities.m */; };
+		BDB3C9741DA6E0250041530E /* ParenthesesCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB3C9731DA6E0250041530E /* ParenthesesCalc.m */; };
+		BDFEADD61DA552420022CB3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEADD51DA552420022CB3E /* main.m */; };
+		BDFEADD91DA552420022CB3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEADD81DA552420022CB3E /* AppDelegate.m */; };
+		BDFEADDC1DA552420022CB3E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEADDB1DA552420022CB3E /* FirstViewController.m */; };
+		BDFEADDF1DA552420022CB3E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEADDE1DA552420022CB3E /* SecondViewController.m */; };
+		BDFEADE21DA552420022CB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFEADE01DA552420022CB3E /* Main.storyboard */; };
+		BDFEADE41DA552420022CB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFEADE31DA552420022CB3E /* Assets.xcassets */; };
+		BDFEADE71DA552420022CB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFEADE51DA552420022CB3E /* LaunchScreen.storyboard */; };
+		BDFEADF01DA5864F0022CB3E /* ExpressionCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEADEF1DA5864F0022CB3E /* ExpressionCalculator.m */; };
+		BDFEADF71DA58A130022CB3E /* PlusOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEADF61DA58A130022CB3E /* PlusOperation.m */; };
+		BDFEADFA1DA59C5A0022CB3E /* MathOperationBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEADF91DA59C5A0022CB3E /* MathOperationBase.m */; };
+		BDFEAE001DA5A1050022CB3E /* CalcException.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEADFF1DA5A1050022CB3E /* CalcException.m */; };
+		BDFEAE031DA5AC230022CB3E /* MultOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEAE021DA5AC230022CB3E /* MultOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDB3C9671DA6D4680041530E /* DivOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivOperation.h; sourceTree = "<group>"; };
+		BDB3C9681DA6D4680041530E /* DivOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivOperation.m; sourceTree = "<group>"; };
+		BDB3C96B1DA6D7690041530E /* expOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = expOperation.h; sourceTree = "<group>"; };
+		BDB3C96C1DA6D7690041530E /* expOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = expOperation.m; sourceTree = "<group>"; };
+		BDB3C96F1DA6D8D50041530E /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		BDB3C9701DA6D8D50041530E /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		BDB3C9721DA6E0250041530E /* ParenthesesCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParenthesesCalc.h; sourceTree = "<group>"; };
+		BDB3C9731DA6E0250041530E /* ParenthesesCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParenthesesCalc.m; sourceTree = "<group>"; };
+		BDFEADD11DA552420022CB3E /* AbbiCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbbiCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFEADD51DA552420022CB3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDFEADD71DA552420022CB3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDFEADD81DA552420022CB3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDFEADDA1DA552420022CB3E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BDFEADDB1DA552420022CB3E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BDFEADDD1DA552420022CB3E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BDFEADDE1DA552420022CB3E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BDFEADE11DA552420022CB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDFEADE31DA552420022CB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDFEADE61DA552420022CB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDFEADE81DA552420022CB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFEADEE1DA5864F0022CB3E /* ExpressionCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionCalculator.h; sourceTree = "<group>"; };
+		BDFEADEF1DA5864F0022CB3E /* ExpressionCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionCalculator.m; sourceTree = "<group>"; };
+		BDFEADF51DA58A130022CB3E /* PlusOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusOperation.h; sourceTree = "<group>"; };
+		BDFEADF61DA58A130022CB3E /* PlusOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusOperation.m; sourceTree = "<group>"; };
+		BDFEADF81DA59C5A0022CB3E /* MathOperationBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathOperationBase.h; sourceTree = "<group>"; };
+		BDFEADF91DA59C5A0022CB3E /* MathOperationBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathOperationBase.m; sourceTree = "<group>"; };
+		BDFEADFE1DA5A1050022CB3E /* CalcException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcException.h; sourceTree = "<group>"; };
+		BDFEADFF1DA5A1050022CB3E /* CalcException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcException.m; sourceTree = "<group>"; };
+		BDFEAE011DA5AC230022CB3E /* MultOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultOperation.h; sourceTree = "<group>"; };
+		BDFEAE021DA5AC230022CB3E /* MultOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFEADCE1DA552420022CB3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB3C96A1DA6D4FF0041530E /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEADF51DA58A130022CB3E /* PlusOperation.h */,
+				BDFEADF61DA58A130022CB3E /* PlusOperation.m */,
+				BDFEADF81DA59C5A0022CB3E /* MathOperationBase.h */,
+				BDFEADF91DA59C5A0022CB3E /* MathOperationBase.m */,
+				BDFEAE011DA5AC230022CB3E /* MultOperation.h */,
+				BDFEAE021DA5AC230022CB3E /* MultOperation.m */,
+				BDB3C9671DA6D4680041530E /* DivOperation.h */,
+				BDB3C9681DA6D4680041530E /* DivOperation.m */,
+				BDB3C96B1DA6D7690041530E /* expOperation.h */,
+				BDB3C96C1DA6D7690041530E /* expOperation.m */,
+				BDB3C9721DA6E0250041530E /* ParenthesesCalc.h */,
+				BDB3C9731DA6E0250041530E /* ParenthesesCalc.m */,
+			);
+			name = Operators;
+			sourceTree = "<group>";
+		};
+		BDB3C96E1DA6D8B50041530E /* ExpressionCalc */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEADEE1DA5864F0022CB3E /* ExpressionCalculator.h */,
+				BDFEADEF1DA5864F0022CB3E /* ExpressionCalculator.m */,
+				BDFEADFE1DA5A1050022CB3E /* CalcException.h */,
+				BDFEADFF1DA5A1050022CB3E /* CalcException.m */,
+				BDB3C96F1DA6D8D50041530E /* Utilities.h */,
+				BDB3C9701DA6D8D50041530E /* Utilities.m */,
+			);
+			name = ExpressionCalc;
+			sourceTree = "<group>";
+		};
+		BDFEADC81DA552420022CB3E = {
+			isa = PBXGroup;
+			children = (
+				BDFEADD31DA552420022CB3E /* AbbiCalc */,
+				BDFEADD21DA552420022CB3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFEADD21DA552420022CB3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEADD11DA552420022CB3E /* AbbiCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFEADD31DA552420022CB3E /* AbbiCalc */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEADD71DA552420022CB3E /* AppDelegate.h */,
+				BDFEADD81DA552420022CB3E /* AppDelegate.m */,
+				BDFEADDA1DA552420022CB3E /* FirstViewController.h */,
+				BDFEADDB1DA552420022CB3E /* FirstViewController.m */,
+				BDFEADDD1DA552420022CB3E /* SecondViewController.h */,
+				BDFEADDE1DA552420022CB3E /* SecondViewController.m */,
+				BDB3C96E1DA6D8B50041530E /* ExpressionCalc */,
+				BDB3C96A1DA6D4FF0041530E /* Operators */,
+				BDFEADE01DA552420022CB3E /* Main.storyboard */,
+				BDFEADE31DA552420022CB3E /* Assets.xcassets */,
+				BDFEADE51DA552420022CB3E /* LaunchScreen.storyboard */,
+				BDFEADE81DA552420022CB3E /* Info.plist */,
+				BDFEADD41DA552420022CB3E /* Supporting Files */,
+			);
+			path = AbbiCalc;
+			sourceTree = "<group>";
+		};
+		BDFEADD41DA552420022CB3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEADD51DA552420022CB3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFEADD01DA552420022CB3E /* AbbiCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFEADEB1DA552420022CB3E /* Build configuration list for PBXNativeTarget "AbbiCalc" */;
+			buildPhases = (
+				BDFEADCD1DA552420022CB3E /* Sources */,
+				BDFEADCE1DA552420022CB3E /* Frameworks */,
+				BDFEADCF1DA552420022CB3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbbiCalc;
+			productName = AbbiCalc;
+			productReference = BDFEADD11DA552420022CB3E /* AbbiCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFEADC91DA552420022CB3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Eli Yashar";
+				TargetAttributes = {
+					BDFEADD01DA552420022CB3E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7VG726736P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDFEADCC1DA552420022CB3E /* Build configuration list for PBXProject "AbbiCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFEADC81DA552420022CB3E;
+			productRefGroup = BDFEADD21DA552420022CB3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFEADD01DA552420022CB3E /* AbbiCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFEADCF1DA552420022CB3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFEADE71DA552420022CB3E /* LaunchScreen.storyboard in Resources */,
+				BDFEADE41DA552420022CB3E /* Assets.xcassets in Resources */,
+				BDFEADE21DA552420022CB3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFEADCD1DA552420022CB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB3C9691DA6D4680041530E /* DivOperation.m in Sources */,
+				BDFEAE001DA5A1050022CB3E /* CalcException.m in Sources */,
+				BDFEADFA1DA59C5A0022CB3E /* MathOperationBase.m in Sources */,
+				BDFEADDF1DA552420022CB3E /* SecondViewController.m in Sources */,
+				BDFEAE031DA5AC230022CB3E /* MultOperation.m in Sources */,
+				BDFEADD91DA552420022CB3E /* AppDelegate.m in Sources */,
+				BDB3C9711DA6D8D50041530E /* Utilities.m in Sources */,
+				BDFEADDC1DA552420022CB3E /* FirstViewController.m in Sources */,
+				BDB3C96D1DA6D7690041530E /* expOperation.m in Sources */,
+				BDFEADF71DA58A130022CB3E /* PlusOperation.m in Sources */,
+				BDFEADD61DA552420022CB3E /* main.m in Sources */,
+				BDB3C9741DA6E0250041530E /* ParenthesesCalc.m in Sources */,
+				BDFEADF01DA5864F0022CB3E /* ExpressionCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDFEADE01DA552420022CB3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFEADE11DA552420022CB3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDFEADE51DA552420022CB3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFEADE61DA552420022CB3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFEADE91DA552420022CB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDFEADEA1DA552420022CB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFEADEC1DA552420022CB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VG726736P;
+				INFOPLIST_FILE = AbbiCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AbbiCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDFEADED1DA552420022CB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VG726736P;
+				INFOPLIST_FILE = AbbiCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AbbiCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFEADCC1DA552420022CB3E /* Build configuration list for PBXProject "AbbiCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFEADE91DA552420022CB3E /* Debug */,
+				BDFEADEA1DA552420022CB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFEADEB1DA552420022CB3E /* Build configuration list for PBXNativeTarget "AbbiCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFEADEC1DA552420022CB3E /* Debug */,
+				BDFEADED1DA552420022CB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDFEADC91DA552420022CB3E /* Project object */;
+}
